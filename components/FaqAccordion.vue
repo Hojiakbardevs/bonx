@@ -1,6 +1,6 @@
 <template>
     <!-- Faq Accordion Start  -->
-    <div class="container overflow-hidden">
+    <div class="container overflow-hidden mt-10">
         <ul>
             <li v-for="(category, index) in paginatedOrders" :key="index" @click="visible=index" class="text-white cursor-pointer border-2 border-secondary-80 py-7 px-8 md:px-12 rounded-xl mb-7 text-lg md:text-2xl font-bold uppercase">
                 {{ category.title }}
