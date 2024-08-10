@@ -3,7 +3,8 @@
     <div class="container" :class="paddingTop">
         <div class="flex justify-center md:justify-between flex-col md:flex-row items-center bg-no-repeat bg-scroll bg-center bg-cover lg:px-100 px-10 h-300" :style="{backgroundImage: `url(${ videoBannerBg })`}">
             <div>
-                <h2 class="text-white md:text-4xl lg:text-5xl xl:text-title sm:text-3xl text-2xl text-center md:text-left mb-6 md:mb-0 uppercase font-bold leading-9 lg:leading-70">Connect with us <br> for gaming update.</h2>
+                <h2 class="text-white md:text-4xl lg:text-5xl xl:text-title sm:text-3xl text-2xl text-center md:text-left mb-6 md:mb-0 uppercase font-bold leading-9 lg:leading-70">Start your free <br> trial today</h2>
+                <p class="max-w-lg text-gray-100 mx-auto text-base sm:text-lg leading-8 mt-3"> Try WonderCode for 30 days. No credit card required.</p>
             </div>
             <div>
                 <n-link to="/contact" class="group primary-btn opacity-100 transition-all" style="background-image:url(/images/others/btn-bg.webp)">

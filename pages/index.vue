@@ -11,7 +11,8 @@
 
     <LiveStream/>
 
-    <UpcomingMatchesHome/>
+    <!-- <UpcomingMatchesHome/>  -->  
+     <!-- bu ham kera bo'lishi mumkin qatorda  -->
 
     <CounterUp/>
 
@@ -19,7 +20,7 @@
 
     <Testimonial/>
 
-    <BlogPost/>
+    <!-- <BlogPost/> -->
 
     <ContactBanner :paddingTop="paddingTop"/>
 
