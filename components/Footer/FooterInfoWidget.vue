@@ -7,11 +7,11 @@
         <!-- Footer Logo End -->
 
         <!-- Text Start -->
-        <p>It long estabhed fact that reader will ditracted the readable content looking using readable.</p>
+        <p class="text-xl text-center">Gamification power</p>
         <!-- Text End -->
 
         <!-- Social Icon List Start -->
-        <ul class="flex mt-4">
+        <ul class="flex mt-4 mx-auto">
             <li v-for="(link, index) in links" :key="index" class="mr-4 last:mr-0">
                 <a :href="`${link.href}`" :style="{backgroundImage: `url(${ link.BgShape })`}" class="w-10 h-10 leading-10 text-center inline-block"><i :class="link.className"></i></a>
             </li>

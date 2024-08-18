@@ -32,10 +32,10 @@
                         videoBannerBg: "/images/others/gaming-world-bg1.webp",
                         imageposition: "text-left",
                         contentposition: "text-left",
-                        linkOnehref: "mailto:gamestudio@gmail.com",
-                        linkOne: "gamestudio@gmail.com",
-                        linkTwohref: "mailto:support24@gmail.com",
-                        linkTwo: "support24@gmail.com"
+                        linkOnehref: "mailto:bafoyevmirzo@gmail.com",
+                        linkOne: "bafoyevmirzo@gmail.com",
+                        linkTwohref: "mailto:hojiakbardevs123@gmail.com",
+                        linkTwo: "hojiakbardevs123@gmail.com"
 
                     },
                     {
@@ -43,7 +43,7 @@
                         name: "Service Image",
                         live: "Location:",
                         videoBannerBg: "/images/others/gaming-world-bg2.webp",
-                        text: "100 N Aurora Ave #APT 19 Oakland, Nebraska(NE), 68045",
+                        text: "Uzbekistan Tashkent city",
                         imageposition: "text-center",
                         contentposition: "text-center"
                     },
@@ -54,10 +54,10 @@
                         videoBannerBg: "/images/others/gaming-world-bg3.webp",
                         imageposition: "text-right",
                         contentposition: "text-right",
-                        linkOnehref: "mailto:(402)685-5964",
-                        linkOne: "(402) 685-5964",
-                        linkTwohref: "+88(00)4568457437",
-                        linkTwo: "+88 (00) 4568 457 437"
+                        linkOnehref: "mailto:+998934724381",
+                        linkOne: "+998 93 472 43 81",
+                        linkTwohref: "+998904724381",
+                        linkTwo: "+998 90 472 43 81"
                     }
                 ]
             }
