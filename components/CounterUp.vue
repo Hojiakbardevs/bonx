@@ -27,27 +27,27 @@
                 counter: [
                     {
                         startVal: 0,
-                        endVal: 8697,
-                        className: "text-yellow",
-                        text: "Twitch Streams"
-                    },
-                    {
-                        startVal: 0,
-                        endVal: 480,
+                        endVal: 25,
                         className: "text-bright",
-                        text: "Total Games"
+                        text: "Brain Boost"
                     },
                     {
                         startVal: 0,
-                        endVal: 5367,
+                        endVal: 70,
+                        className: "text-bright",
+                        text: "Memory"
+                    },
+                    {
+                        startVal: 0,
+                        endVal: 50,
                         className: "text-punch",
-                        text: "Youtube Streams"
+                        text: "Problem-Solving"
                     },
                     {
                         startVal: 0,
-                        endVal: 249,
+                        endVal: 40,
                         className: "text-primary",
-                        text: "Pro Team"
+                        text: "Focus"
                     }
                 ]
             }

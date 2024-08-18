@@ -24,9 +24,9 @@
                         <img class="h-37 w-36 mx-auto" :src="service.imgSrc" :alt="service.name">
                     </div>
                     <div class="block">
-                        <h3 class="text-white font-exo text-xl md:text-2xl font-bold uppercase mb-4">{{ service.live }}
+                        <h3 class="text-white font-exo text-xl md:text-2xl font-bold uppercase">{{ service.live }}
                         </h3>
-                        <p>{{ service.text }}</p>
+                        <p class="text-lg leading-9 text-justify" >{{ service.text }}</p>
                     </div>
                 </div>
             </div>
@@ -50,29 +50,29 @@ export default {
                 {
                     imgSrc: "/images/others/gaming-world1.webp",
                     name: "Service Image",
-                    live: "Live Streaming",
-                    text: "When unknown printer took type and scrambled it to make type specimen book centuries,",
+                    live: "Cognitive Development",
+                    text: "Studies show that gamified learning can enhance cognitive development in children by improving problem-solving skills and executive functioning. Games that incorporate educational content can stimulate brain areas involved in decision-making and strategic thinking (Source: Journal of Educational Psychology).",
                     videoBannerBg: "/images/others/gaming-world-bg1.webp"
                 },
                 {
                     imgSrc: "/images/others/gaming-world2.webp",
                     name: "Service Image",
-                    live: "Game News",
-                    text: "When unknown printer took type and scrambled it to make type specimen book centuries,",
+                    live: "Engagement and Motivation",
+                    text: "Research indicates that gamified learning environments can significantly boost engagement and motivation in young learners. The use of rewards and interactive elements helps to maintain students' attention and enthusiasm, leading to better learning outcomes (Source: Computers & Education).",
                     videoBannerBg: "/images/others/gaming-world-bg2.webp"
                 },
                 {
                     imgSrc: "/images/others/gaming-world3.webp",
                     name: "Service Image",
-                    live: "Game Tournaments",
-                    text: "When unknown printer took type and scrambled it to make type specimen book centuries,",
+                    live: "Memory Retention",
+                    text: "Gamification has been found to improve memory retention in children. A study published in Frontiers in Psychology shows that interactive and game-based learning experiences can enhance long-term retention of information compared to traditional methods, as they make learning more memorable and enjoyable.",
                     videoBannerBg: "/images/others/gaming-world-bg3.webp"
                 },
                 {
                     imgSrc: "/images/others/gaming-world2.webp",
                     name: "Service Image",
-                    live: "Game News",
-                    text: "When unknown printer took type and scrambled it to make type specimen book centuries,",
+                    live: "Increased Learning Efficiency",
+                    text: "Gamified learning environments can enhance learning efficiency by providing immediate feedback and adaptive challenges. According to research in Educational Technology Research and Development, students in gamified settings learn more effectively because they receive instant feedback and adjust their strategies in real-time, leading to a more efficient learning process.",
                     videoBannerBg: "/images/others/gaming-world-bg2.webp"
                 }
             ]

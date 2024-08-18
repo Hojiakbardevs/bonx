@@ -63,9 +63,8 @@ module.exports = {
               9999: '9999'
             },
             fontFamily: {
-              'metal': ["'Metal Mania', cursive"],
               'exo': ["'Exo', sans-serif"],
-              'autom': ["'Autom', sans-serif"]
+              'metal': ["'Autom', sans-serif"]
             },
             fontSize: {
               '7.5xl': ['7.5rem'],

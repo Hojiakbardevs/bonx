@@ -4,10 +4,13 @@
         <div class="container">
             <div class="relative 2xl:pt-20 lg:pt-16 md:pt-10 sm:pt-8 pt-8 md:mb-12 z-10 flex flex-col justify-center items-center lg:items-start lg:text-left text-center">
 
-                <h1 class="text-white font-autom uppercase font-normal 2xl:text-7.5xl xl:text-8xl lg:text-5.5xl md:text-7xl text-5xl tracking-wide xl:mb-10 lg:mb-8 mb-5 text-shadow">Gamification <br> <span class=" xl:text-9xl lg:text-6.5xl md:text-8xl text-6xl ">p</span>ower </h1>
+                <h1 class="text-white font-metal uppercase font-normal 2xl:text-7.5xl xl:text-8xl lg:text-5.5xl md:text-7xl text-5xl tracking-wide xl:mb-10 lg:mb-8 mb-5 text-shadow">Gamification <br> <span class=" xl:text-9xl lg:text-6.5xl md:text-8xl text-6xl ">p</span>ower </h1>
                 <p class="text-white font-medium font-exo lg:mb-10 md:mb-6 text-base lg:text-2xl mb-5 max-w-screen-md">Welcome to WonderCode– where learning becomes an adventure! Designed for kids aged 7 to 18, our platform combines fun and education, taking your skills to the next level in logic, critical thinking, mnemonics and coding.</p>
 
-                <PrimaryButton/>
+                <!-- <PrimaryButton/> -->
+                <EnterButton/>
+
+           
 
             </div>
         </div>
@@ -19,9 +22,13 @@
 </template>
 
 <script>
+import EnterButton from './Button/EnterButton.vue';
+
+
     export default {
         components: {
-            PrimaryButton: () => import('@/components/Button/PrimaryButton')
+            PrimaryButton: () => import('@/components/Button/PrimaryButton'),
+            EnterButton: () => import('@/components/Button/EnterButton')
         }
     };
 </script>

@@ -26,10 +26,10 @@
       <!-- Testimonial Arrows -->
 
       <div class="livesection-button-prev swipper-arrow text-white absolute top-2/4 transform -translate-y-2/4 md:w-68 w-55 md:h-55 h-11 bg-cover flex items-center justify-center hover:bg-arrow-hover-shape bg-arrow-shape transition-all 2xl:-left-28 left-3 z-50 cursor-pointer">
-        <img class="w-4 h-6" src="/images/icon/navigation-arrow2.webp" alt="">
+        <img class="w-4 h-6" src="/images/icon/navigation-arrow2.webp" alt="right">
       </div>
       <div class="livesection-button-next swipper-arrow text-white absolute top-2/4 transform -translate-y-2/4 md:w-68 w-55 md:h-55 h-11 flex items-center justify-center hover:bg-arrow-hover-shape bg-arrow-shape bg-cover transition-all 2xl:-right-28 2xl:left-auto right-3 z-50 cursor-pointer">
-        <img class="w-4 h-6" src="/images/icon/navigation-arrow1.webp" alt="">
+        <img class="w-4 h-6" src="/images/icon/navigation-arrow1.webp" alt="left">
       </div>
     </div>
   </section>

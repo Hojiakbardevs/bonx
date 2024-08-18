@@ -27,12 +27,13 @@
                 </p>
             </div>
             <div class="about_btn">
-                <n-link to="/contact" class="group primary-btn opacity-100 transition-all"
+                <a href="https://wondercode.uz/demo2.html" target="_blank"
+                    class="group primary-btn opacity-100 transition-all"
                     style="background-image:url(/images/others/btn-bg.webp)">
                     {{ btnName }}
                     <img src="/images/icon/arrrow-icon.webp" alt="Arrow Icon"
                         class="ml-3 w-5 h-5 group-hover:ml-4 transition-all">
-                </n-link>
+                </a>
             </div>
         </div>
         <div class="w-full lg:w-1/2 mb-10 lg:mb-0">
@@ -40,6 +41,7 @@
                 <img src="/images/about/teaching_description.webp" alt="teaching description">
                 <CoolLightBox :items="items" :index="index" @close="index = null">
                 </CoolLightBox>
+
                 <div v-for="(item, imageIndex) in items" :key="imageIndex">
                     <div @click="index = imageIndex"
                         class="absolute bottom-0 right-0 md:right-32 lg:right-0 cursor-pointer h-120 w-120 bg-primary rounded-full flex justify-center items-center z-30 before:content-[''] before:h-120 before:w-120 before:bg-primary before:opacity-50 before:rounded-full before:absolute before:z-20 before:transition-all hover:before:h-32 hover:before:w-32">
@@ -63,7 +65,7 @@ export default {
             btnName: "Play Now",
             items: [
                 {
-                    src: "https://www.youtube.com/watch?v=eS9Qm4AOOBY"
+                    src: "https://youtu.be/P7XKcTzjyAg"
                 }
             ],
             index: null

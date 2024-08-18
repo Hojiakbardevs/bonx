@@ -1,7 +1,7 @@
 <template>
     <!-- Testimonial Section Start -->
     <section class="testimonial-section">
-        <div class="relative pt-120 pb-120 before:content-[''] before:absolute before:invisible sm:before:visible before:right-0 lg:before:h-3 before:h-2 before:w-1/3 before:bg-primary before:top-40 lg:before:top-48" style="background-image:url(/images/others/testimonial-bg-fullwidth.webp)">
+        <div class="relative pt-120 pb-120 before:content-[''] before:absolute before:invisible sm:before:visible before:right-0 lg:before:h-3 before:h-2 before:w-1/3  before:top-40 lg:before:top-48" style="background-image:url(/images/others/testimonial-bg-fullwidth.webp)">
 
             <div class="container relative">
                 <h2 class="font-exo mb-15 text-white text-3xl sm:text-4xl lg:text-title font-bold uppercase leading-8 sm:leading-10 lg:leading-70 text-center sm:text-left">What people’s say <br> ABOUT <span class="text-primary">game studio. </span></h2>
