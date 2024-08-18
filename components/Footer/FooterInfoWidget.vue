@@ -2,7 +2,7 @@
     <div class="flex flex-col mr-12 xl:mr-100">
         <!-- Footer Logo Start -->
         <NuxtLink to="/" class="mb-10">
-            <img src="/images/logo.webp" alt="Footer Logo">
+            <img src="/images/logo/logo.svg" alt="Footer Logo">
         </NuxtLink>
         <!-- Footer Logo End -->
 
