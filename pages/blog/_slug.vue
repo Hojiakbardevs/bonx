@@ -74,7 +74,7 @@
 
     <ContactBanner :paddingTop="paddingTop"/>
 
-    <Footer/>
+    <Footer></Footer>
 
   </div>
 </template>
@@ -98,8 +98,8 @@ export default {
             blogData,
             slug: this.$route.params.slug,
             navOpen: false,
-            BreadcrumbTitle: "Blog Without Sidebar",
-            BreadcrumbSubTitle: "Blog without sidebar",
+            BreadcrumbTitle: "Demo o'yinlar",
+            BreadcrumbSubTitle: "Demo o'yinlar",
             paddingTop: "pt-32"
         }
     },

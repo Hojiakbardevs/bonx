@@ -21,7 +21,7 @@
         data () {
             return {
                 gameHome,
-                title: "Popular Game",
+                title: "Mashhur o'yinlar",
                 text: "When unknown printer took type and scrambled it to make type specimen book centuries,"
             }
         }

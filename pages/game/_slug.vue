@@ -11,7 +11,7 @@
 
         <ContactBanner :paddingTop="paddingTop"/>
 
-        <Footer/>
+        <Footer></Footer>
 
     </div>
 </template>

@@ -9,6 +9,9 @@
 
     <BlogList />
 
+    <PopularGame />
+
+
     <ContactBanner :paddingTop="paddingTop"/>
 
     <Footer></Footer>
@@ -24,13 +27,14 @@ export default {
       Breadcrumb: () => import('@/components/Breadcrumb'),
       BlogList: () => import('@/components/Blog/BlogList'),
       ContactBanner: () => import('@/components/ContactBanner'),
-      Footer: () => import('@/components/Footer')
+      Footer: () => import('@/components/Footer'),
+      PopularGame: () => import('@/components/Games/PopularGame'),
   },
   data() {
       return {
           navOpen: false,
-          BreadcrumbTitle: "Blog Without Sidebar",
-          BreadcrumbSubTitle: "Blog without sidebar",
+          BreadcrumbTitle: "Demo o'yinlar",
+          BreadcrumbSubTitle: "Demo o'yinlar",
           paddingTop: "pt-32"
       }
   },
