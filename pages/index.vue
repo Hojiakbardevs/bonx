@@ -13,19 +13,19 @@
 
     <LiveStream />
 
-    <!-- <UpcomingMatchesHome/>  -->
+    <UpcomingMatchesHome/> 
     <!-- bu ham kera bo'lishi mumkin qatorda  -->
 
     <CounterUp />
 
-    <!-- <PopularGame /> -->
+    <PopularGame />
 
     <Testimonial />
 
-    <!-- <BlogPost/> -->
+    <BlogPost/>
 
     <ContactBanner :paddingTop="paddingTop" />
-    <!-- <Faq></Faq> -->
+    <Faq></Faq>
     <Footer></Footer>
 
   </div>
